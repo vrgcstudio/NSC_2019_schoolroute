@@ -4,7 +4,6 @@ import { FormsModule } from '@angular/forms';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { RegisterComponent } from './components/register/register.component';
 import { StatusComponent } from './components/status/status.component';
 import { LoginComponent } from './components/login/login.component';
 import { RegisterStudentComponent } from './components/register-student/register-student.component';
@@ -16,7 +15,6 @@ import { RegisterDriverComponent } from './components/register-driver/register-d
 @NgModule({
   declarations: [
     AppComponent,
-    RegisterComponent,
     StatusComponent,
     LoginComponent,
     RegisterStudentComponent,
