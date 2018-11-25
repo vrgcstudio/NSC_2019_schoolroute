@@ -9,6 +9,7 @@ import { LoginComponent } from './components/login/login.component';
 import { RegisterStudentComponent } from './components/register-student/register-student.component';
 import { RegisterParentComponent } from './components/register-parent/register-parent.component';
 import { RegisterDriverComponent } from './components/register-driver/register-driver.component';
+import { ListCarComponent } from './components/list-car/list-car.component';
 
 
 
@@ -19,7 +20,8 @@ import { RegisterDriverComponent } from './components/register-driver/register-d
     LoginComponent,
     RegisterStudentComponent,
     RegisterParentComponent,
-    RegisterDriverComponent
+    RegisterDriverComponent,
+    ListCarComponent
   ],
   imports: [
     BrowserModule,
