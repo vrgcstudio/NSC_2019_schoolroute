@@ -10,6 +10,9 @@ import { RegisterStudentComponent } from './components/register-student/register
 import { RegisterParentComponent } from './components/register-parent/register-parent.component';
 import { RegisterDriverComponent } from './components/register-driver/register-driver.component';
 import { ListCarComponent } from './components/list-car/list-car.component';
+import { MenuStudentComponent } from './components/menu-student/menu-student.component';
+import { MenuParentComponent } from './components/menu-parent/menu-parent.component';
+import { MenuDriverComponent } from './components/menu-driver/menu-driver.component';
 
 
 
@@ -21,7 +24,10 @@ import { ListCarComponent } from './components/list-car/list-car.component';
     RegisterStudentComponent,
     RegisterParentComponent,
     RegisterDriverComponent,
-    ListCarComponent
+    ListCarComponent,
+    MenuStudentComponent,
+    MenuParentComponent,
+    MenuDriverComponent
   ],
   imports: [
     BrowserModule,

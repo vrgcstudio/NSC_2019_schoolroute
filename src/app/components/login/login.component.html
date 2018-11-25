@@ -1,11 +1,11 @@
 <div class="container fuild" style="margin-top: 40px; text-align: center">
   <img src="assets/img/biglogo.png" width="200px" height="80px">
   <br><br><br><br>
-  <input type="text" name="username" placeholder="USERNAME">
+  <input type="text" name="username" [(ngModel)]="username" placeholder="USERNAME">
   <br>
   <input type="password" name="password" placeholder="PASSWORD" style="margin-top: 10px" >
   <br>
-  <button type="submit" class="btn btn-success" style="width: 100px; margin-top:10px">Login</button>
+  <button routerLink="/{{username}}" type="submit" class="btn btn-success" style="width: 100px; margin-top:10px">Login</button>
   <br>
   <a style="margin-top:10px" routerLink="/choosestatus">Create an account?</a>
 </div>
