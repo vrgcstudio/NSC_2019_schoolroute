@@ -1,0 +1,14 @@
+body {
+    background-image: linear-gradient;
+}
+#route1 {
+    background-size: 20%
+}
+input {
+    background-color: #9cdefe;
+    width: 200px;
+    height: 35px;
+    color: darkslategray;
+    border-radius: 6.5px;
+    border: 0px;
+}
